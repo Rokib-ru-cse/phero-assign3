@@ -53,7 +53,7 @@ function megaFriend(allName) {
 
 	for (name in allName) {
 		if (Number.isInteger(parseInt(allName[name]))) {
-			return "number can't be a valid a name";
+			return "number cannot be a valid name";
 		}
 	}
 
